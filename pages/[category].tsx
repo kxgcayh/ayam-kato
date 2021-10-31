@@ -1,5 +1,4 @@
-import { useRouter } from 'next/dist/client/router'
-import React, { useEffect } from 'react'
+import React from 'react'
 import ArrivalProduct from '../components/Arrival';
 import Layout from '../components/Layouts';
 import { Categories, CategoryInterface } from '../interfaces/category.interface';
@@ -14,7 +13,7 @@ interface CategoryDetailProps {
 function CategoryDetail(props: CategoryDetailProps) {
   const { filtered, categories } = props;
   return (
-    <Layout pageTitle='HOME' category={categories}>
+    <Layout pageTitle='Ayam Kato' category={categories}>
       <div className="arrival-product pt-45">
         <div className="row grid">
           {filtered.map(product => {

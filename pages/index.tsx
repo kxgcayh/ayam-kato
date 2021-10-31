@@ -11,7 +11,7 @@ interface HomeProps {
 const Home = (props: HomeProps) => {
   const { products, categories } = props;
   return (
-    <Layout pageTitle='HOME' category={categories}>
+    <Layout pageTitle='Daftar Menu' category={categories}>
       <div className="arrival-product pt-45">
         <div className="row grid">
           {products.map(product => {
