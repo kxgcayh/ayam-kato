@@ -58,9 +58,9 @@
     autoplaySpeed: 10000,
     speed: 400,
     prevArrow:
-      '<a class="slider-slick-prev"><i class="las la-arrow-left"></i></a>',
+      '<a className="slider-slick-prev"><i className="las la-arrow-left"></i></a>',
     nextArrow:
-      '<a class="slider-slick-next"><i class="las la-arrow-right"></i></a>',
+      '<a className="slider-slick-next"><i className="las la-arrow-right"></i></a>',
     responsive: [
       {
         breakpoint: 992,
@@ -189,9 +189,9 @@
     // autoplay: true,
     speed: 400,
     prevArrow:
-      '<a class="slider-slick-prev"><i class="las la-angle-left"></i></a>',
+      '<a className="slider-slick-prev"><i className="las la-angle-left"></i></a>',
     nextArrow:
-      '<a class="slider-slick-next"><i class="las la-angle-right"></i></a>',
+      '<a className="slider-slick-next"><i className="las la-angle-right"></i></a>',
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
@@ -231,9 +231,9 @@
     autoplaySpeed: 10000,
     speed: 400,
     prevArrow:
-      '<a class="team-prev"><i class="fas fa-long-arrow-alt-left"></i>Previous</a>',
+      '<a className="team-prev"><i className="fas fa-long-arrow-alt-left"></i>Previous</a>',
     nextArrow:
-      '<a class="team-next">Next<i class="fas fa-long-arrow-alt-right"></i></a>'
+      '<a className="team-next">Next<i className="fas fa-long-arrow-alt-right"></i></a>'
   });
   //Loader
 
